@@ -1,0 +1,80 @@
+/* Font Header Logo */
+@import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap');
+/* ---------------- */
+
+/* Normal Font Script */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=McLaren&display=swap');
+/* ------------------ */
+
+.header {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background-color: #000;
+    top: 0;
+    position: sticky;
+    z-index: 2000;
+}
+
+.header__left {
+    flex: 0.4;
+
+}
+
+.header__left >h1{
+    text-align: center;
+    font-family: 'McLaren', cursive;
+    letter-spacing: 1px;
+    padding: 10px 0px;
+}
+
+.header__left > h1 > span{
+    color:#FFA500;
+}
+
+.header__right{
+    display: flex;
+    flex:0.6;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.header__right > a > h4{
+    font-size: 18px;
+    font-family: 'Comic Neue', cursive;
+    /* cursor: pointer; */
+    padding: 10px 0;
+    letter-spacing: 1px;
+    transition: transform 200ms ease-in-out;
+}
+
+.header__right > a > h4:hover{
+  transform: scale(1.09);
+    background-color: #FFA500;
+    color: #000;
+    padding: 5px 20px;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 18px;
+}
+
+.header__joinbtn{
+    background-color: #FFA500;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header__joinbtn:hover{
+    transform: scale(1.09);
+    background-color: #FFF;
+    color: #FFA500;
+/*    
+    font-family: 'Comic Neue', cursive;
+    font-size: 18px; */
+}
+
